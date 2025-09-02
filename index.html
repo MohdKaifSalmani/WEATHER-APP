@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <form id="weatherForm">
+      <input type="text" id="cityInput" placeholder="Enter city name" required />
+      <button type="submit">Search</button>
+    </form>
+
+    <div id="weatherInfo" class="weather-card">
+      <div class="city">City Name</div>
+      <div class="date">Date here</div>
+      <div class="temp">--°C</div>
+      <div class="icon">
+        <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="weather icon" />
+      </div>
+      <div class="description">Weather Description</div>
+      <div class="min-max">Min: --°C | Max: --°C</div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
